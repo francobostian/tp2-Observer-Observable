@@ -1,4 +1,4 @@
-Lo primero es la creación de los objetos Auto y Mecanico. El auto es extiende de Observable y el Mecanico implementa Observer.
+Lo primero es la creación de los objetos Auto y Mecanico. El auto extiende de Observable y el Mecanico implementa Observer.
 Una vez creados los objetos, se debe asignar al observado un observador, esto se hace haciendo que el objeto de tipo auto
 llame al método addObserver, pasando por parámetro el objeto mecánico, que es el que implementa Observer.
 Después se llama al método de Auto que genere un cambio de atributos, en el caso de este ejercicio, los cambios de aceite, 
